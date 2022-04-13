@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url('https://cdn.shopify.com/s/files/1/0355/7864/2569/files/home-cat-parejas.png');
+    background-size: conver;
+    margin: 40px; 
+}
+
+.carddos {
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.h1 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
