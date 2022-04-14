@@ -9,6 +9,7 @@ import Navbar from "./components/navbar";
 import NewSection from "./components/Nsecction";
 import Section from "./components/section";
 import Catalogo from "./pages/productos";
+import { Data } from "./pages/productos/data";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Navbar />
       <Header />
       <Section />
-      <Catalogo titulo="Lenceria"/> 
+      <Catalogo titulo="Lenceria" Data={Data}/> 
       <Card />
       <NewSection />
       <Contacto />
