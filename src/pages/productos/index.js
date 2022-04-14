@@ -1,13 +1,27 @@
 import React from 'react';
 
-import CatStyles from '../productos/index.module.css';
+import  Data  from './data';
+import { Container, Cabecera, Contenedor, Card, Img, Info, Title, Desc, Price } from './productos';
 
-const Catalogo = () => {
+const Catalogo = ({titulo, Data}) => {
     return (
-        <div className={ CatStyles.container }>
-            <h1> Nuestros productos </h1>
-            
-        </div>
+        <Container>
+            <Cabecera>{titulo}</Cabecera>
+            <Contenedor>
+                {Data.map((product, index) => {
+                    return(
+                        <Card key={index}>
+                            <Img src={product.img} alt={product.alt} />
+                        <Info>
+                            <Title>{product.title}</Title>
+                            <Desc>{product.descripcion}</Desc>
+                            <Price>{product.precio}</Price>
+                        </Info>
+                        </Card>
+                    )
+                })}
+            </Contenedor>
+        </Container>
     );
 };
 

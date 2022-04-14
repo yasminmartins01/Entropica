@@ -8,6 +8,7 @@ import Contacto from './components/contacto';
 import Navbar from "./components/navbar";
 import NewSection from "./components/Nsecction";
 import Section from "./components/section";
+import Catalogo from "./pages/productos";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Header />
       <Section />
+      <Catalogo titulo="Lenceria"/> 
       <Card />
       <NewSection />
       <Contacto />

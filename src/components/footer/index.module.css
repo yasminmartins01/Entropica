@@ -20,8 +20,23 @@ a:link{
     width: 100%;
     height: 300px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+.img {
+    width: 200;
+    height: 200;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 500px;
 }
