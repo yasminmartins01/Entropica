@@ -29,11 +29,12 @@ export const Img = styled.img`
 export const Cabecera = styled.h1`
     font-size: 30px;
     text-align: center;
-    margin-bottom: 15px; 
+    margin-bottom: 36px; 
 `
 export const Title = styled.h2`
+    font-family: calibri;
     font-weight: 400px;
-    font-size: 15px;
+    font-size: 30px;
 `
 
 export const Info = styled.div`

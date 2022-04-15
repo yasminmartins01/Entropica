@@ -13,9 +13,9 @@ const Catalogo = ({titulo, Data}) => {
                         <Card key={index}>
                             <Img src={product.img} alt={product.alt} />
                         <Info>
-                            <Title>{product.title}</Title>
+                            <Title>{product.titulo}</Title>
                             <Desc>{product.descripcion}</Desc>
-                            <Price>{product.precio}</Price>
+                            <Price>${product.precio}</Price>
                         </Info>
                         </Card>
                     )
