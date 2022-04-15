@@ -302,7 +302,7 @@ export const Data = [
     {
         img: img37,
         alt: "palmeta",
-        titulo: "Palmeta larga con peluche",
+        titulo: "Palmeta pequeña con peluche",
         precio: "1160",
         descripcion: "Peluche disponible en rojo, rosa y fucsia."
     },
@@ -318,7 +318,7 @@ export const Data = [
         alt: "palmeta",
         titulo: "Palmeta con plumas",
         precio: "900",
-        descripcion: "Palmeta pequeña con plumas"
+        descripcion: "Palmeta larga con plumas"
     },
     {
         img: img40,

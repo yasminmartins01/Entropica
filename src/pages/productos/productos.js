@@ -30,6 +30,7 @@ export const Cabecera = styled.h1`
     font-size: 30px;
     text-align: center;
     margin-bottom: 36px; 
+    margin-top: 36px;
 `
 export const Title = styled.h2`
     font-family: calibri;
