@@ -3,14 +3,12 @@ import React from 'react';
 
 import Navbar from '../../components/navbar';
 import { Container, Cabecera, Contenedor, Card, Img, Info, Title, Desc, Price } from './productos';
-import Searcher from './searcher';
 
 
 const Catalogo = ({titulo, Data}) => {
     return (
         <Container>
             <Navbar />
-            <Searcher/>
             <Cabecera>{titulo}</Cabecera>
             <Contenedor>
                 {Data.map((product, index) => {
