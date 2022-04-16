@@ -10,8 +10,8 @@ const Header = () => {
         <div className={ headerStyles.h1 }>
            <h1> Animate a probar algo nuevo </h1>
         </div>
-        <button className={ headerStyles.button }>
-          Nuestros productos
+        <button className={ headerStyles.button }> <a href="https://www.instagram.com/entropicasexshop/">
+          Seguinos en instagram </a>
         </button>
         </div>
       </div>
