@@ -1,30 +1,38 @@
-body {
+import styled from 'styled-components'
+
+export const Div = styled.div`
     margin: 0;
     padding: 0;
-}
-
-.container {
     width: 100%;
-    height: 600px;
+    height: 80vh;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+    @media (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+`
 
-.card {
-    width: 800px;
-    height: 500px;
+export const Card = styled.div`
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     background-image: url('https://cdn.shopify.com/s/files/1/0355/7864/2569/files/home-cat-parejas.png');
-    background-size: conver;
+    background-size: cover;
     margin: 40px; 
-}
+    @media (max-width: 768px) {
+        width: 100%;
+        height: 150%;
+      }
+`
 
-.carddos {
-    width: 600px;
-    height: 500px;
+export const CardDos = styled.div`
+    width: 50%;
+    height: 100%;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     color: black;
@@ -33,9 +41,10 @@ body {
     text-align: center;
     align-items: center;
     vertical-align: middle;
-}
+`
 
-.h1 {
+export const H1 = styled.h1`
+    width: 300px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+`

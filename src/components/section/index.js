@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import sectionStyles from "../section/index.module.css";
+import { Container, H1, Contenedor, P } from './section'
 import Swipper from '../swiper';
 
 
@@ -9,12 +9,14 @@ import Swipper from '../swiper';
 
 const Section = () => {
     return (
-        <div className={sectionStyles.container}>
-            <h1 className={sectionStyles.h1}> Productos </h1>   
-            <p className={sectionStyles.p}> Ofrecemos variedad de productos en
-             distintas calidades para tu gusto y comodidad </p>
-            <Swipper />
-        </div>
+        <Container>
+            <H1> Productos </H1>   
+            <P> Ofrecemos variedad de productos en
+             distintas calidades para tu gusto y comodidad </P>
+             <Contenedor>
+                <Swipper />
+             </Contenedor>
+        </Container>
     );
 };
 

@@ -1,20 +1,18 @@
 import React from "react";
 
-import headerStyles from './index.module.css';
+import { Container, Blur, Button, H1 } from './Header';
 
 
 const Header = () => {
     return (
-      <div className={headerStyles.container}>
-        <div className={ headerStyles.blur }>
-        <div className={ headerStyles.h1 }>
-           <h1> Animate a probar algo nuevo </h1>
-        </div>
-        <button className={ headerStyles.button }> <a href="https://www.instagram.com/entropicasexshop/">
-          Seguinos en instagram </a>
-        </button>
-        </div>
-      </div>
+      <Container>
+        <Blur>
+          <H1> Animate a probar algo nuevo </H1>
+            <Button> <a href="https://www.instagram.com/entropicasexshop/">
+              Seguinos en instagram </a>
+            </Button>
+        </Blur>
+      </Container>
     );
 };
 

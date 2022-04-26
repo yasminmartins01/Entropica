@@ -1,19 +1,19 @@
 import React from 'react';
 
-import contactoStyles from './index.module.css'
+import { Container, Form, Button, Input, H1, Image } from './Contacto'
 
 const Contacto = () => {
     return (
-        <div className={ contactoStyles.container }>
-            <form action="https://formsubmit.co/yasmartins999@gmail.com" method="POST" className={ contactoStyles.formulario }>
-                <h1 className={ contactoStyles.h1 }> Contactanos </h1>
-                <input type="text" placeholder='Nombre' className={ contactoStyles.input } required/>
-                <input type="email" placeholder='Correo electronico' className={ contactoStyles.input } required/>
-                <input type="message" placeholder='mensaje' className={ contactoStyles.input } required/>
-                <button className={ contactoStyles.button }> Enviar </button>
-            </form>
-            <img src="https://pbs.twimg.com/media/Cxn9484WgAAXnQq.jpg" alt="bdsm" className={ contactoStyles.img }/>
-        </div>
+        <Container>
+            <Form action="https://formsubmit.co/yasmartins999@gmail.com" method="POST">
+                <H1> Contactanos </H1>
+                <Input type="text" placeholder='Nombre'  required/>
+                <Input type="email" placeholder='Correo electronico'  required/>
+                <Input type="message" placeholder='mensaje' required/>
+                <Button> Enviar </Button>
+            </Form>
+            <Image src="https://pbs.twimg.com/media/Cxn9484WgAAXnQq.jpg" alt="bdsm"/>
+        </Container>
     );
 };
 

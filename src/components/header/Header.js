@@ -1,10 +1,10 @@
-body {
+import styled from 'styled-components';
+
+export const Container = styled.div`
   margin: 0;
   padding: 0;
-}
-
-.container {
   width: 100%;
+  min-width: 300px;
   height: 650px;
   background-image: url('https://www.clarin.com/img/2021/10/22/el-bdsm-es-una-practica___wPlG7TX3C_1200x630__1.jpg');
   background-size: cover;
@@ -14,9 +14,9 @@ body {
   justify-content: center;
   align-items: center;
   color: white; 
-}
+` 
 
-.button {
+export const Button = styled.button`
   width: 250px;
   height: 50px;
   border-radius: 10px;
@@ -26,24 +26,21 @@ body {
   font-size: 18px;
   outline: none;
   border: none; 
-}
+`
 
-.h1 {
-  width: 700px;
-  border-radius: 20px;
-  margin: 10px;
-  font-family:'Times New Roman', Times, serif;
-}
-
-.blur {
+export const Blur = styled.div`
+  min-width: 100px;
   height: 150px;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
   border-radius: 10px;
+`
 
-}
+export const H1 = styled.h1`
+  min-width: 100px;
+  width: 700px;
+  border-radius: 20px;
+  margin: 10px;
+  font-family:'Times New Roman', Times, serif;
+`
 
-a:link{
-  color: white;
-  text-decoration: none;
-}
