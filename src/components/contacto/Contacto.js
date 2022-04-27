@@ -14,6 +14,9 @@ export const Container = styled.div`
         justify-content: center;
         align-items:center; 
       }
+    @media(max-width: 300px){
+        width: 100%;
+    }
 `
 
 export const Button = styled.button`
@@ -44,6 +47,9 @@ export const Form = styled.form`
     text-align: center;
     align-items: center;
     flex-direction: column;
+    @media(max-width: 300px){
+        width: 80%;
+    }
 `
 
 export const H1 = styled.h1`
@@ -51,6 +57,9 @@ export const H1 = styled.h1`
     height: 400px;
     min-width: 0%;
     min-height: auto;
+    @media(max-width: 300px){
+        width: 80%;
+    }
 `
 
 export const Image = styled.img`
@@ -62,4 +71,8 @@ export const Image = styled.img`
         width: 100%;
         heigth: 100%;
       }
+      @media(max-width: 300px){
+        width: 100%;
+        heigth: 80%;
+    }
 `
