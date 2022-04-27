@@ -33,6 +33,7 @@ export const Input = styled.input`
     border: 2px solid rgb(51, 62, 26);
     border-radius: 10px;
     width: 400px;
+    min-width: 200px;
     height: 40px;
     margin: 10px;
     text-align: center;

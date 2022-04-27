@@ -15,6 +15,11 @@ export const Div = styled.div`
         justify-content: center;
         align-items: center;
       }
+    @media (min-width: 300px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 export const Card = styled.div`
@@ -25,9 +30,10 @@ export const Card = styled.div`
     background-size: cover;
     margin: 40px; 
     @media (max-width: 768px) {
-        width: 100%;
+        width: 50%;
         height: 150%;
       }
+    
 `
 
 export const CardDos = styled.div`
