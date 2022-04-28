@@ -46,6 +46,39 @@ body {
 
 
 .uno {
+    background-color: violet;
+    background-size: cover;
+}
+
+.dos {
+    background-color: violet;
+    background-size: cover;
+}
+
+.tres {
+    background-color: violet;
+    background-size: cover;
+}
+
+.cuatro {
+    background-color: violet;
+    background-size:cover;
+}
+
+.cinco {
+  background-color: violet;
+  background-size: cover;
+}
+
+.seis {
+  background-color: violet;
+  background-size: cover;
+}
+
+/*arranca el media responsive*/
+
+@media(min-width:300px){
+  .uno {
     background-image: url('https://cdn.create.vista.com/api/media/small/190803196/stock-photo-black-dildo-toy-pink-feather');
     background-size: cover;
 }
@@ -74,4 +107,4 @@ body {
   background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/905/166/products/210-7ded14391af1f47aa216335308117522-640-0.jpg');
   background-size: cover;
 }
-
+}
