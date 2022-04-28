@@ -71,7 +71,7 @@ body {
 }
 
 .cinco {
-  background-image: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .seis {
