@@ -6,7 +6,7 @@ body {
 }
 
 :root{
-  --secondary-color: rgb(255, 163, 255);
+  --secondary-color: rgb(65, 1, 87);
 }
 
 body {
@@ -25,6 +25,7 @@ body {
 
 .swiper-slide {
   text-align: center;
+  color: white;
   font-size: 18px;
   background: #fff;
   display: -webkit-box;
