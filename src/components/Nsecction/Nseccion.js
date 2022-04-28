@@ -9,16 +9,14 @@ export const Div = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    @media (max-width: 768px) {
+    text-align: center;   
+    @media(max-width: 768px){
+        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-    @media (min-width: 300px){
+    }
+    @media(max-width: 300px){
+        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 `
 
@@ -30,10 +28,21 @@ export const Card = styled.div`
     background-size: cover;
     margin: 40px; 
     @media (max-width: 768px) {
-        width: 50%;
-        height: 150%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
-    
+   @media (max-width: 300px){
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+   }
+   @media(max-width: 600px){
+       width: 100%;
+       heigth: 150%;
+   }
 `
 
 export const CardDos = styled.div`

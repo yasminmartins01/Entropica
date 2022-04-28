@@ -5,6 +5,10 @@ body {
   height: 100%;
 }
 
+:root{
+  --secondary-color: rgb(255, 163, 255);
+}
+
 body {
   background: rgb(255, 255, 255);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -46,38 +50,32 @@ body {
 
 
 .uno {
-    background-color: violet;
-    background-size: cover;
+    background-color: var(--secondary-color);
 }
 
 .dos {
-    background-color: violet;
-    background-size: cover;
+    background-color: var(--secondary-color);
 }
 
 .tres {
-    background-color: violet;
-    background-size: cover;
+    background-color: var(--secondary-color);
 }
 
 .cuatro {
-    background-color: violet;
-    background-size:cover;
+    background-color: var(--secondary-color);
 }
 
 .cinco {
-  background-color: violet;
-  background-size: cover;
+  background-color: var(--secondary-color);
 }
 
 .seis {
-  background-color: violet;
-  background-size: cover;
+  background-color: var(--secondary-color);
 }
 
 /*arranca el media responsive*/
 
-@media(min-width:300px){
+@media(max-width:768px){
   .uno {
     background-image: url('https://cdn.create.vista.com/api/media/small/190803196/stock-photo-black-dildo-toy-pink-feather');
     background-size: cover;

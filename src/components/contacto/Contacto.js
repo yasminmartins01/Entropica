@@ -37,6 +37,10 @@ export const Input = styled.input`
     height: 40px;
     margin: 10px;
     text-align: center;
+    @media(max-width:768px){
+        width: 90%;
+        margin: 5px;
+    }
 `
 
 
@@ -70,10 +74,11 @@ export const Image = styled.img`
     min-height: auto;
     @media (max-width: 768px) {
         width: 100%;
-        heigth: 100%;
+        height: 60%;
+       
       }
       @media(max-width: 300px){
         width: 100%;
-        heigth: 80%;
+        height: 60%;
     }
 `
