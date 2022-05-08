@@ -44,6 +44,21 @@ import img43 from '../../images/portaligas.jpg';
 import img44 from '../../images/tangaparahombre.jpeg';
 
 
+import img45 from '../../images/vibrador1.jpeg';
+import img46 from '../../images/vibrador2.jpeg';
+import img47 from '../../images/vibrador3.jpeg';
+import img48 from '../../images/vibrador4.jpeg';
+import img49 from '../../images/vibrador5.jpeg';
+
+import img50 from '../../images/pene1.jpeg';
+import img51 from '../../images/pene2.jpeg';
+import img52 from '../../images/pene3.jpeg';
+
+import img53 from '../../images/accesorio2.jpeg';
+import img54 from '../../images/accesorio4.jpeg';
+import img55 from '../../images/accesorio6.jpeg';
+import img56 from '../../images/accesorio7.jpeg';
+import img57 from '../../images/accesorio8.jpeg';
 
 
 export const Data = [
@@ -354,6 +369,98 @@ export const Data = [
         titulo: "Tanga para hombre",
         precio: "2256",
         descripcion: "Tanga para hombre disponible en color negro y rojo."
-    }
-    
+    },
+    {
+        img: img45,
+        alt: "vibrador1",
+        titulo: "Pene vibrador rosa",
+        precio: "2500",
+        descripcion: "19x3cm con vibrador incluido "
+    },
+    {
+        img: img46,
+        alt: "vibrador2",
+        titulo: "Pene vibrador",
+        precio: "3000",
+        descripcion: "16x4cm con vibrador"
+    },
+    {
+        img: img47,
+        alt: "vibrador3",
+        titulo: "Vibrador doble estimulacion",
+        precio: "6400",
+        descripcion: "Con 30 velocidades y doble estimulacion"
+    },
+    {
+        img: img48,
+        alt: "vibrador4",
+        titulo: "Bala vibradora",
+        precio: "4200",
+        descripcion: "Bala vibradora con carga electrica usb"
+    },
+    {
+        img: img49,
+        alt: "vibrador5",
+        titulo: "Conejito pretty love",
+        precio: "4000",
+        descripcion: "Con 10 velocidades"
+    },
+    {
+        img: img50,
+        alt: "pene",
+        titulo: "Consolador rosa",
+        precio: "1500",
+        descripcion: "16x4cm"
+    },
+    {
+        img: img51,
+        alt: "pene",
+        titulo: "Consolador violeta",
+        precio: "1500",
+        descripcion: "17x4"
+
+    },
+    {
+        img: img52,
+        alt: "pene",
+        titulo: "Consolador comun",
+        precio: "2000",
+        descripcion: "18x4cm"
+
+    },
+    {
+        img: img53,
+        alt: "accesorios",
+        titulo: "hot balls",
+        precio: "500",
+        descripcion: "Bolas de gel que producen una sensacion de calor y lubricacion"
+    },
+    {
+        img: img54,
+        alt: "accesorios",
+        titulo: "Estimulador anal",
+        precio: "1000",
+        descripcion: "Estumulador anal azul"
+    },
+    {
+        img: img55,
+        alt: "accesorios",
+        titulo: "Bolas chinas",
+        precio: "2500",
+        descripcion: "disponible en color violeta y rosa "
+    },
+    {
+        img: img56,
+        alt: "accesorios",
+        titulo: "Funda para dedo",
+        precio: "500",
+        descripcion: "Funda para dedo estimulador"
+    },
+    {
+        img: img57,
+        alt: "accesorios",
+        titulo: "Perfume feromonas",
+        precio: "1300",
+        descripcion: "perfume feromonas"
+    },
 ]
