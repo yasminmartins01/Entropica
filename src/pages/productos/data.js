@@ -43,22 +43,40 @@ import img42 from '../../images/portaligascorazon.jpeg';
 import img43 from '../../images/portaligas.jpg';
 import img44 from '../../images/tangaparahombre.jpeg';
 
-
+//vibradores
 import img45 from '../../images/vibrador1.jpeg';
 import img46 from '../../images/vibrador2.jpeg';
 import img47 from '../../images/vibrador3.jpeg';
 import img48 from '../../images/vibrador4.jpeg';
 import img49 from '../../images/vibrador5.jpeg';
 
+//penes de silicona
 import img50 from '../../images/pene1.jpeg';
 import img51 from '../../images/pene2.jpeg';
 import img52 from '../../images/pene3.jpeg';
 
+//acessorios 
 import img53 from '../../images/accesorio2.jpeg';
 import img54 from '../../images/accesorio4.jpeg';
 import img55 from '../../images/accesorio6.jpeg';
 import img56 from '../../images/accesorio7.jpeg';
 import img57 from '../../images/accesorio8.jpeg';
+
+//lubricantes y aceites
+import img58 from '../../images/lubricantes1.png';
+import img59 from '../../images/lubricantes2.png';
+import img60 from '../../images/lubricantes3.png';
+import img61 from '../../images/lubricantes4.png';
+import img62 from '../../images/lubricantes5.png';
+import img63 from '../../images/lubricantes6.png';
+import img64 from '../../images/lubricantes7.png';
+import img65 from '../../images/lubricantes8.png';
+import img66 from '../../images/lubricantes9.png';
+import img67 from '../../images/lubricantes10.png';
+import img69 from '../../images/lubricantes12.png';
+import img70 from '../../images/lubricantes4.png';
+import img71 from '../../images/lubricantes14.png';
+import img72 from '../../images/lubricantes15.png';
 
 
 export const Data = [
@@ -463,4 +481,88 @@ export const Data = [
         precio: "1300",
         descripcion: "perfume feromonas"
     },
+    {
+        img: img58,
+        titulo: "Aceite pasion sex ",
+        precio: "500",
+        descripcion: "Aceite para prolongar la ereccion"
+    },
+    {
+        img: img59,
+        titulo: "Gel miss v calor",
+        precio: "850",
+        descripcion: "Gel lubricante sensacion de calor"
+    },
+    {
+        img: img60,
+        titulo: "Aceite pasion sex",
+        precio: "500",
+        descripcion: "Lubricante dilatador anal"
+    },
+    {
+        img: img61,
+        titulo: "Aceite pasion sex",
+        precio: "500",
+        descripcion: "aceite estimulante femenino"
+    },
+    {
+        img: img62,
+        titulo: "Gel miss v",
+        precio: "850",
+        descripcion: "lubricante estimulante masculino"
+    },
+    {
+        img: img63,
+        titulo: "Gel miss v saborizado",
+        precio: "800",
+        descripcion: "lubricante comestible miss v sabor malvavisco"
+    },
+    {
+        img: img64,
+        titulo: "Miss v vegano",
+        precio: "850",
+        descripcion: "aceite 100% apto vegano y cruelty free"
+    },
+    {
+        img: img65,
+        titulo: "Aceite miss v sexcita",
+        precio: "840",
+        descripcion: "estimulante termico sensacion calor"
+    },
+    {
+        img: img66,
+        titulo: "Miss v ginseng",
+        precio: "800",
+        descripcion: "Estimulante femenino para orgasmos mas intensos"
+    },
+    {
+        img: img67,
+        titulo: "Miss v saborizado",
+        precio: "800",
+        descripcion: "Aceite miss v sabor licor"
+    },
+    {
+        img: img69,
+        titulo: "Aceite miss v saborizado",
+        precio: "800",
+        descripcion: "aceite lubricante sabor choconaranja"
+    },
+    {
+        img: img70,
+        titulo: "Gel pasion sex",
+        precio: "500",
+        descripcion: "gel lubricante estimulante femenino"
+    },
+    {
+        img: img71,
+        titulo: "Aceite miss v saborizado",
+        precio: "800",
+        descripcion: "lubricante sabor cupcake"
+    },
+    {
+        img: img72,
+        titulo: "Gel miss v try",
+        precio: "700",
+        descripcion: "gel lubricante sensacion caliente"
+    }
 ]
