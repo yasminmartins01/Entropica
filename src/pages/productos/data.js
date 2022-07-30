@@ -1,3 +1,5 @@
+
+//imagenes de la lenceria
 import img1 from '../../images/antifazconpeluche.jpeg';
 import img2 from '../../images/antifaz.jpeg';
 import img3 from '../../images/arnescola.jpeg';
