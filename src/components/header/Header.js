@@ -15,8 +15,7 @@ export const Container = styled.div`
   color: white; 
   @media (max-width: 300px){
     width: 80%;
-    margin-left: 20px;
-    margin-rigth: 20px;
+    padding: 10px;
     background-image: url('https://tendencybook.com/wp-content/uploads/2019/09/Bondage-BDSM.jpg');
   }
 ` 
