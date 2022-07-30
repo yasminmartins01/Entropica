@@ -19,7 +19,7 @@ body {
 }
 
 .swiper {
-  width: 80%;
+  width: 90%;
   height: 100%;
 }
 
@@ -70,44 +70,29 @@ body {
     background-size: cover;
 }
 
-.cinco {
-  background-color: var(--secondary-color);
-}
 
-.seis {
-  background-color: var(--secondary-color);
-}
 
 /*arranca el media responsive*/
 
 @media(max-width:768px){
   .uno {
-    background-image: url('https://cdn.create.vista.com/api/media/small/190803196/stock-photo-black-dildo-toy-pink-feather');
+    background-color: var(--secondary-color);;
     background-size: cover;
 }
 
 .dos {
-    background-image: url('https://www.superguapas.es/wp-content/uploads/2021/01/Dildo-0-156145285_m.jpg');
+    background-color: var(--secondary-color);;
     background-size: cover;
 }
 
 .tres {
-    background-image: url('https://sc04.alicdn.com/kf/H791f6c9c250c4377a53502601c83194aI.jpg');
+    background-color: var(--secondary-color);;
     background-size: cover;
 }
 
 .cuatro {
-    background-image: url('https://www.oromagazine.cl/upload/74613/Adulto-Juguetes-Sexuales-de-la-Mujer-de-Noche-las-Parejas-1.jpeg');
+    background-color: var(--secondary-color);
     background-size:cover;
 }
 
-.cinco {
-  background-image: url('https://media.self.com/photos/61f05a089d6d2c3b50e74a76/1:1/w_1000,h_1000,c_limit/We-Vibe%20Pivot.jpg');
-  background-size: cover;
-}
-
-.seis {
-  background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/905/166/products/210-7ded14391af1f47aa216335308117522-640-0.jpg');
-  background-size: cover;
-}
 }
