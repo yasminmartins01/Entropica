@@ -38,17 +38,20 @@ export const Button = styled.button`
 export const Blur = styled.div`
   min-width: 100px;
   height: 150px;
+  padding: 10px;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
   border-radius: 10px;
   @media (max-width: 300px){
     width: 80%;
+    padding: 10px;
   }
 `
 
 export const H1 = styled.h1`
   min-width: 100px;
   width: 700px;
+  padding: 10px;
   border-radius: 20px;
   margin: 10px;
   font-family:'Times New Roman', Times, serif;
