@@ -36,7 +36,7 @@ export const Button = styled.button`
 `
 
 export const Blur = styled.div`
-  min-width: 100px;
+  min-width: 80px;
   height: 150px;
   margin: 10px;
   background-color: rgba(255, 255, 255, 0.2);
