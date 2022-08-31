@@ -4,7 +4,7 @@ export const Div = styled.div`
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 80vh;
+    height: 600px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -21,10 +21,10 @@ export const Div = styled.div`
 `
 
 export const Card = styled.div`
-    width: 100%;
+    width: 50%;
     height: 100%;
     border-radius: 20px;
-    background-image: url('https://cdn.shopify.com/s/files/1/0355/7864/2569/files/home-cat-parejas.png');
+    background-image: url('https://i.pinimg.com/564x/09/df/29/09df29598c467fbdb959e10bebd07c33.jpg');
     background-size: cover;
     margin: 40px; 
     @media (max-width: 768px) {

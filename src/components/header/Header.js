@@ -4,9 +4,11 @@ export const Container = styled.div`
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 650px;
-  background-image: url('https://www.clarin.com/img/2021/10/22/el-bdsm-es-una-practica___wPlG7TX3C_1200x630__1.jpg');
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+  url('https://www.clarin.com/img/2021/10/22/el-bdsm-es-una-practica___wPlG7TX3C_1200x630__1.jpg');
   background-size: cover;
+  background-position: center;
   display:flex;
   flex-direction: column;
   text-align: center;

@@ -19,7 +19,7 @@ body {
 }
 
 .swiper {
-  width: 90%;
+  width: 60%;
   height: 100%;
 }
 
@@ -51,48 +51,25 @@ body {
 
 
 .uno {
-    background-image: url('https://www.diversual.com/modules/ybc_blog/views/img/post/portada-grande-bondage.jpg');
+    background-image: url('https://i.pinimg.com/564x/6a/29/de/6a29dea6c5713b715b047c767bc36f54.jpg');
     background-size: contain;
+    background-position: center;
 }
 
 .dos {
-    background-image: url('https://www.farma13.com/images/easyblog_articles/616/Diseo-sin-ttulo---2022-02-21T123125.681.png');
+    background-image: url('https://i.pinimg.com/564x/ca/ad/da/caadda4b43c99ebc55d32b4692efbd9a.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .tres {
-    background-image: url('https://i0.wp.com/itaepsicologia.com/wp-content/uploads/2020/02/bdsm.jpg?fit=1900%2C900&ssl=1');
+    background-image: url('https://i.pinimg.com/564x/be/5f/c3/be5fc3f39231dba5f6fd9735b025111a.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .cuatro {
-    background-image: url('https://cdn.ssl-socket.com/wp-content/uploads/2019/11/1076907866.jpg');
+    background-image: url('https://i.pinimg.com/564x/8d/b1/1d/8db11d41e2263c45937bf4679d6538af.jpg');
     background-size: cover;
-}
-
-
-
-/*arranca el media responsive*/
-
-@media(max-width:768px){
-  .uno {
-    background-color: var(--secondary-color);;
-    background-size: cover;
-}
-
-.dos {
-    background-color: var(--secondary-color);;
-    background-size: cover;
-}
-
-.tres {
-    background-color: var(--secondary-color);;
-    background-size: cover;
-}
-
-.cuatro {
-    background-color: var(--secondary-color);
-    background-size:cover;
-}
-
+    background-position: center;
 }

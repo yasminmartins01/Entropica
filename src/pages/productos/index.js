@@ -3,6 +3,7 @@ import React from 'react';
 
 import Navbar from '../../components/navbar';
 import { Container, Cabecera, Contenedor, Card, Img, Info, Title, Desc, Price } from './productos';
+import Footer from '../../components/footer';
 
 
 const Catalogo = ({titulo, Data}) => {
@@ -24,6 +25,7 @@ const Catalogo = ({titulo, Data}) => {
                     )
                 })}
             </Contenedor>
+            <Footer/>
         </Container>
     );
 };

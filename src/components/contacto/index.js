@@ -4,7 +4,7 @@ import { Container, Form, Button, Input, H1, Image } from './Contacto'
 
 const Contacto = () => {
     return (
-        <Container>
+        <Container id="contacto">
             <Form action="https://formsubmit.co/yasmartins999@gmail.com" method="POST">
                 <H1> Contactanos </H1>
                 <Input type="text" placeholder='Nombre'  required/>

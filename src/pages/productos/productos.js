@@ -2,10 +2,11 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100%;
-    min-height: 100vh;
-    padding: 5rem calc((100vh - 1300px) / 2); 
+    min-height: 100vh; 
     background: white;
     color: black;
+    padding: 0;
+    margin: 0;
 `
 export const Contenedor = styled.div`
     display: flex;

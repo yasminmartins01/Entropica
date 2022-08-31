@@ -11,10 +11,10 @@ export default function Swipper() {
   return (
     <>
     <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-      <SwiperSlide className="uno">Consoladores</SwiperSlide>
-      <SwiperSlide className="dos">Vibradores</SwiperSlide>
-      <SwiperSlide className="tres">Lenceria</SwiperSlide>
-      <SwiperSlide className="cuatro">Accesorios</SwiperSlide>
+      <SwiperSlide className="uno"></SwiperSlide>
+      <SwiperSlide className="dos"></SwiperSlide>
+      <SwiperSlide className="tres"></SwiperSlide>
+      <SwiperSlide className="cuatro"></SwiperSlide>
     </Swiper>
   </>
   );

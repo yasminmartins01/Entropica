@@ -76,7 +76,6 @@ import img65 from '../../images/lubricantes8.png';
 import img66 from '../../images/lubricantes9.png';
 import img67 from '../../images/lubricantes10.png';
 import img69 from '../../images/lubricantes12.png';
-import img70 from '../../images/lubricantes4.png';
 import img71 from '../../images/lubricantes14.png';
 import img72 from '../../images/lubricantes15.png';
 
@@ -548,12 +547,6 @@ export const Data = [
         titulo: "Aceite miss v saborizado",
         precio: "800",
         descripcion: "aceite lubricante sabor choconaranja"
-    },
-    {
-        img: img70,
-        titulo: "Gel pasion sex",
-        precio: "500",
-        descripcion: "gel lubricante estimulante femenino"
     },
     {
         img: img71,
