@@ -15,10 +15,17 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   color: white; 
+
+  @media(max-width: 768px){
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/564x/11/f8/53/11f8530dcfe6e40cd62a67a1bf32b648.jpg');
+    background-position: center;
+    color: black;
+  }
   @media (max-width: 300px){
-    width: 80%;
+    width: 100%;
     padding: 10px;
-    background-image: url('https://tendencybook.com/wp-content/uploads/2019/09/Bondage-BDSM.jpg');
   }
 ` 
 
