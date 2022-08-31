@@ -10,6 +10,11 @@ export const Container = styled.div`
     flex-direction: column;
     text-align: center;
     justify-content: center;
+
+    @media(max-width: 768px){
+        margin: 30px;
+        align-items:center;
+    }
 `
 export const Seccion = styled.div`
     display: flex;
