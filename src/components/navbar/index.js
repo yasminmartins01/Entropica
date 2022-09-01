@@ -14,7 +14,6 @@ const Navbar = () => {
       <Link to='/catalogo' className={ navStyles.button }>
         Catalogo
       </Link>
-     {/* <button className={ navStyles.contacto }><a href='#contacto' onClick={handleClick}>Contacto</a></button> */}
       </div>
     );
 };
