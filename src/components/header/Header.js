@@ -57,7 +57,7 @@ export const Blur = styled.div`
     width:90%;
   }
   @media (max-width: 300px){
-    width: 80%;
+    width: 90%;
     margin:10px;
   }
 `
@@ -70,10 +70,10 @@ export const H1 = styled.h1`
   font-family:'Times New Roman', Times, serif;
 
   @media(max-width:768px){
-    width:90%;
+    width:100%;
   }
   @media (min-width: 300px){
-    width: 80%;
+    width: 90%;
     padding: 10px;
   }
 `
