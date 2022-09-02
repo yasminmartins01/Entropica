@@ -39,7 +39,8 @@ export const Button = styled.button`
   font-size: 18px;
   outline: none;
   border: none; 
-  @media (max-width: 300px){
+
+  @media (min-width: 300px){
     width: 80%;
   }
 `
@@ -51,6 +52,10 @@ export const Blur = styled.div`
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
   border-radius: 10px;
+
+  @media(max-width:768px){
+    width:90%;
+  }
   @media (max-width: 300px){
     width: 80%;
     margin:10px;
@@ -63,7 +68,11 @@ export const H1 = styled.h1`
   border-radius: 20px;
   margin: 10px;
   font-family:'Times New Roman', Times, serif;
-  @media (max-width: 300px){
+
+  @media(max-width:768px){
+    width:90%;
+  }
+  @media (min-width: 300px){
     width: 80%;
     padding: 10px;
   }
