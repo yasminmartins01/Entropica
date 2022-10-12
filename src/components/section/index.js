@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
 
 
 import { Container, H1, Contenedor, P ,Text, Seccion} from './section'
 import Swipper from '../swiper';
 
 
-
-
 const Section = () => {
+   const Titulo = document.querySelector('.Titulo');
+   useEffect(() =>{
+    gsap.from(Titulo, {opacity:0, duration:2, y:-100, repeat:3})
+   })
     return (
         <Container>
-            <H1> Nuestro servicio </H1>  
+            <H1 className='Titulo'> Nuestro servicio </H1>  
             <Seccion>
             <Text>
                 <P> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16">
